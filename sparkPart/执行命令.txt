@@ -1,0 +1,3 @@
+sparkTestWithRF
+
+./bin/spark-submit --master yarn  --deploy-mode client    --conf spark.executorEnv.PYTHONHASHSEED=321  /home/zhou/Documents/gpsDataProject/sparkPart/sparkTestWithRF.py   hdfs://master:9000//sparkDemo/input/sample_libsvm_data.txt
